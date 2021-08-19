@@ -40,7 +40,7 @@ public class ColorPicker : MonoBehaviour
 
     public void SelectColor(Color color)
     {
-        for (int i = 0; i < AvailableColors.Length; ++i)
+        for (int i = 0; i < AvailableColors.Length; i++)
         {
             if (AvailableColors[i] == color)
             {
